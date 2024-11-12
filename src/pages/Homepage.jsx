@@ -16,7 +16,7 @@ const Homepage = () => {
       <div className='relative'>
             <img src="https://media.licdn.com/dms/image/v2/D5616AQE7mChAFiWOOw/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1730460994817?e=1736985600&v=beta&t=4fM2SGXDm001qyi-GLDQxU2VvUV2cJcjKiJJNT0cJEo" alt="cover image"  className='object-contain w-full h-full rounded-t-2xl'/>
 
-            <div className='absolute -bottom-20 left-5 min-w-48 max-w-48 min-h-48  max-h-48 border-[5px] border-white shadow-2xl z-20 rounded-full bg-slate-400'>
+            <div className='absolute md:-bottom-20 md:left-5 md:min-w-48 md:max-w-48 md:min-h-48  md:max-h-48 min-w-28 max-w-28 min-h-28 max-h-28 border-[5px] border-white shadow-2xl z-20 rounded-full bg-slate-400 left-1/2 -bottom-14 transform -translate-x-1/2 md:transform-none'>
                 <img src='https://media.licdn.com/dms/image/v2/D4D03AQFdbpZ8HMnp7A/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1680116909428?e=1736985600&v=beta&t=W1_miwuONtsTcbgz3sAbzx645rXImoblDsoGzenqU4Q' alt='' className='object-cover rounded-full '/>
             </div>
       </div>
@@ -26,7 +26,7 @@ const Homepage = () => {
 
       {/* Project Section */}
         
-        <Element name="projects" className="section">
+        <Element name="projects" className="section ">
           <Project/>
         </Element>
 

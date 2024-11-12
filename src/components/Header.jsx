@@ -15,33 +15,33 @@ const Header = () => {
         </div>
         <div className='flex justify-end items-center gap-x-5'>
 
-          <ScrollLink to="experience" smooth={true} duration={500} className="cursor-pointer">
+          <ScrollLink to="experience" smooth={true} duration={500} offset={-100} className="cursor-pointer">
             <div className="flex justify-center items-center">
               <WorkHistoryIcon />
             </div>
-            <p className="text-center">Experience</p>
+            <p className="text-center md:block hidden">Experience</p>
           </ScrollLink>
 
-          <ScrollLink to="projects" smooth={true} duration={500} className="cursor-pointer">
+          <ScrollLink to="projects" smooth={true} duration={500} offset={-100} className="cursor-pointer">
             <div className="flex justify-center items-center">
             <AccountTreeIcon className=''/>
             </div>
-            <p className="text-center">Projects</p>
+            <p className="text-center md:block hidden">Projects</p>
           </ScrollLink>
 
-          <ScrollLink to="about" smooth={true} duration={500} className="cursor-pointer">
+          <ScrollLink to="about" smooth={true} duration={500} offset={-100} className="cursor-pointer">
             <div className="flex justify-center items-center">
             <InfoIcon className=''/>
             </div>
-            <p className="text-center">About</p>
+            <p className="text-center md:block hidden">About</p>
           </ScrollLink>
 
 
-          <ScrollLink to="skills" smooth={true} duration={500} className="cursor-pointer">
+          <ScrollLink to="skills" smooth={true} duration={500} offset={-100} className="cursor-pointer">
             <div className="flex justify-center items-center">
             <PsychologyIcon className=''/>
             </div>
-            <p className="text-center">Skills</p>
+            <p className="text-center md:block hidden">Skills</p>
           </ScrollLink>
         </div>
       </div>
