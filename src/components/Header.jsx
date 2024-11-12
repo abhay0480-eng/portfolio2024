@@ -4,6 +4,7 @@ import WorkHistoryIcon from '@mui/icons-material/WorkHistory';
 import AccountTreeIcon from '@mui/icons-material/AccountTree';
 import InfoIcon from '@mui/icons-material/Info';
 import PsychologyIcon from '@mui/icons-material/Psychology';
+import ConnectWithoutContactIcon from '@mui/icons-material/ConnectWithoutContact';
 import { Link as ScrollLink } from 'react-scroll'; 
 
 const Header = () => {
@@ -42,6 +43,14 @@ const Header = () => {
             <PsychologyIcon className=''/>
             </div>
             <p className="text-center md:block hidden">Skills</p>
+          </ScrollLink>
+
+
+          <ScrollLink to="contact" smooth={true} duration={500} offset={-100} className="cursor-pointer">
+            <div className="flex justify-center items-center">
+            <ConnectWithoutContactIcon className=''/>
+            </div>
+            <p className="text-center md:block hidden">Contact</p>
           </ScrollLink>
         </div>
       </div>

@@ -9,10 +9,11 @@ import About from '../components/About';
 import Experience from '../components/Experience';
 import Skills from '../components/Skills';
 import { Element } from 'react-scroll';
+import Contact from '../components/Contact';
 
 const Homepage = () => {
   return (
-    <div className=' mt-24 w-full  sm: md: lg: xl: 2xl:'>
+    <div className=' mt-24 w-full  mb-5 sm: md: lg: xl: 2xl:'>
       <div className='relative'>
             <img src="https://media.licdn.com/dms/image/v2/D5616AQE7mChAFiWOOw/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1730460994817?e=1736985600&v=beta&t=4fM2SGXDm001qyi-GLDQxU2VvUV2cJcjKiJJNT0cJEo" alt="cover image"  className='object-contain w-full h-full rounded-t-2xl'/>
 
@@ -46,6 +47,12 @@ const Homepage = () => {
         <Element name="about" className="section">
           <About/>
         </Element>
+
+        {/* Contact Section */}
+        <Element name="contact" className="section">
+        <Contact/>
+        </Element>
+
        
 
       
