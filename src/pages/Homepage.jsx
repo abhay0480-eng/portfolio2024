@@ -3,8 +3,8 @@ import { FaReact } from "react-icons/fa";
 import { SiRedux } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { Link } from 'react-router-dom';
-import Introduction from '../components/introduction';
 import Project from '../components/Project';
+import Introduction from '../components/Introduction'
 import About from '../components/About';
 import Experience from '../components/Experience';
 import Skills from '../components/Skills';
