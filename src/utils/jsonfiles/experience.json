@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "title": "React Developer",
+      "company": "Nevina Infotech Pvt. Ltd.",
+      "employmentType": "Full-time",
+      "duration": "Jan 2024 - Sep 2024 · 9 mos",
+      "location": "Ahmedabad, Gujarat, India"
+    },
+    {
+      "id": 2,
+      "title": "React Developer",
+      "company": "NetFillip Technologies Private Limited",
+      "employmentType": "Full-time",
+      "duration": "Mar 2022 - Sep 2023 · 1 yr 7 mos",
+      "location": "Ahmedabad, Gujarat, India"
+    },
+    {
+      "id": 3,
+      "title": "Web Designer",
+      "company": "Adaan Digital Solutions Pvt. Ltd.",
+      "employmentType": "Full-time",
+      "duration": "Apr 2021 - Apr 2022 · 1 yr 1 mo",
+      "location": "New Delhi, Delhi, India · Remote"
+    }
+  ]
